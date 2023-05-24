@@ -1,0 +1,268 @@
+
+/*made by Rachel Reubi*/
+
+/*make the background color whilte*//*mobile*/
+body {
+	background-color: #FFFFFF;
+}
+
+/*container background color is blue*//*mobile*/
+#container {
+	max-width: 100%;
+	background-color: #5F9EA0;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1.5em;
+	
+}
+
+/*change main text to white*//*moble*/
+main {
+	color:#FFFFFF;
+}
+
+/*make banner images max width*/
+img {
+	max-width: 100%;
+}
+
+/*mobil nav*/
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -1.5em;
+} 
+
+
+nav ul {
+		padding: 0;
+		margin-top: 2em;
+		margin-bottom: 0.5em;
+}
+
+
+nav li {
+	background-color: #dae9e9;
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.2em;
+}
+
+
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/*center the banner images*//*desktop*/	
+#banner {
+	text-align: center;
+	padding-top: 1.5em;
+	max-width: 100%;
+}
+
+
+/*this is the paragraph spot in pages, create a box around it*//*mobil section*/
+section {
+	display: block;
+	font-family: Tahoma, Arial, sans-serif;
+	color:#000000;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+	border-radius: 2em 2em 2em 2em;
+	background-color: #FFFFFF;
+	opacity: 0.85;
+}
+/*header colors this one is the one in the box*//*mobil section*/
+section h1 {
+	font-family: Georgia, serif;
+	color: #5F9EA0;
+}
+
+/*style for main links. in the paragraphs*//*mobil section*/
+main a {
+	color: #000000;
+	text-decoration: none;
+}
+main a:link {
+	color:#5F9EA0;
+	font-size: 1.2em;
+}
+
+main a:hover{
+	color: #5F9EA0;
+	font-style: italic;
+}
+main a:visited{
+	color: #5F9EA0;
+}
+
+
+/*mobil section*/
+footer{
+	Text-align: center;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em; 
+	color: #FFFFFF;
+	background-color: #296A6D;
+	font-size: 0.7em;
+}
+
+.desktop {
+	display: none;
+}
+
+/*style for the header image of each page, center it, and give it space*//*desktop section*/
+	header {
+		text-align: center;
+		margin-top: 0.7em;
+		padding-bottom: 1em;
+		padding-top: 2em;
+		background-color: #296A6D;
+	}
+	
+
+
+@media only screen and (min-width: 957px) {
+	
+	.desktop {
+		display: inline;
+	}
+	
+	main li {
+		font-size:1.2em;
+		color: #dae9e9;
+	}
+	
+	/*style for main links in the list items*//*desktop styles*/
+	main li a {
+		text-decoration: none;
+		font-size: 1.2em;
+	}
+	
+	main li a:link {
+		color:#dae9e9;
+		font-size: 1.2em;
+	}
+
+	main li a:hover{
+		color: #dae9e9;
+		font-style: italic;
+	}
+	
+	main li a:visited{
+		color: #dae9e9;
+	}
+	
+	/*albums header header outside the box*//*desktop section*/
+	h1 {
+		font-family: Georgia, serif;
+		color: #FFFFFF;
+	}
+	
+	
+	/*desktop  nav*/
+	nav li {
+		display: inline;
+		float: none;
+		margin-left: 1%;
+		margin-right: 1%;
+		margin-bottom: 3%;
+		padding-left: 1em;
+		padding-right: 1em;
+		width: 20%;
+		white-space: nowrap;
+		border-radius: 2em 2em 2em 2em;
+		background-color: transparent;
+	}
+	
+	nav li a:link {
+		color: #FFFFFF;
+	}
+	
+	nav li a:visited {
+		color: #dae9e9;
+	}
+	
+	nav li a:hover {
+		color: #dae9e9;
+		font-style: italic;
+	}
+	
+	#harry a:hover {
+		color: #088a29;
+	}
+	
+	#niall a:hover {
+		color: #fe9a2e;
+	}
+	
+	#liam a:hover {
+		color: #df0101;
+	}
+	
+	#louis a:hover {
+		color: #0000ff;
+	}
+	
+	#zayn a:hover {
+		color: #f7fe2e;
+	}
+	
+	#home a:hover {
+		color: #296A6D;
+	}
+	
+	/*make main paragraph text a little bigger*//*desktop*/
+	main {
+		font-size: 1.2em;
+	}
+	
+	/*center the banner images*//*desktop*/	
+	#banner {
+		text-align: center;
+		padding-top: 1.5em;
+	}
+	
+	/*idk*/
+	article {
+		display: inline-block;
+		color: #FFFFFF;
+		font-size: 1em;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+		padding: 1em;
+		border-radius: 2em 2em 2em 2em;
+		background-color: #5F9EA0;
+		opacity: 0.85;
+		width: 95%;
+		vertical-align: text-top;
+	}
+		aside {
+		float: left;
+		display: inline;	
+		}
+		
+		iframe {
+			float: right;
+		}
+	
+	
+	
+	
+
+}
+
+
+
+
+
+
+
+	
+
+
